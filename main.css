@@ -1,0 +1,34 @@
+/*
+
+		Programmer : Paul Christian
+        Date       : 09 26 2017
+        Description: Used for Crandon Score Card
+*/
+
+h1 {text-align:center;}
+
+input {margin:0px;padding:0px;}
+
+#h_golfer, 
+#h_hole,
+#h_par,
+#h_front,
+#h_back,
+#h_total,
+#par 
+{width: 50px;
+text-align:center;
+margin: 5px auto;}
+
+#left,#right {width:10px;text-align:center;}
+#hole {width:22px; text-align:center;}
+
+	
+#left {margin-left:55px;padding-right:0px;}	
+
+
+#p1_name, #p2_name, #p3_name, #p4_name {width:50px;text-align:center;margin:5px auto;}
+#p1_score, #p2_score, #p3_score, #p4_score {width:50px;text-align:center;margin:5px auto;}
+#p1_front, #p2_front, #p3_front, #p4_front {width:50px;text-align:center;margin:5px auto 5px 55px;}
+#p1_back, #p2_back, #p3_back, #p4_back {width:50px;text-align:center;margin:5px auto;}
+#p1_total, #p2_total, #p3_total, #p4_total {width:50px;text-align:center;margin:5px auto;}

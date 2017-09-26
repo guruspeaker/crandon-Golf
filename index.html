@@ -1,0 +1,66 @@
+<!Doctype html>
+<!-- Homework #1: Crandon Golf Score Card -->
+<!-- Designed by Paul Christian... No rights reserved whatsoever -->
+<html>
+   <head>
+		<link rel="stylesheet" type="text/css" href="main.css"> 
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- START Bootstrap -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- END Bootstrap -->
+   </head>
+   <title>Crandon Golf Score Card</title>
+   <body>
+      <div class="container">
+	  <h1>Crandon Golf<br>Score Card</h1><hr>
+		<div class="card grid">
+		<form>
+		<input type="text" id="h_golfer" value="Golfer" disabled>
+		<input type="text" id="h_hole" value="Hole" disabled>
+		<input type="text" id="h_par" value="Par" disabled>
+		<input type="text" id="h_front" value="Front" disabled>
+		<input type="text" id="h_back" value="Back" disabled>
+		<input type="text" id="h_total" value="Total" disabled><br>
+		
+		<input type="button" id="left" value="<" onclick="downhole()">
+		<input type="number" id="hole" value=0 disabled>
+		<input type="button" id="right" value=">" onclick="uphole()">
+		<input type="number" id="par" disabled><br>
+		
+		<input type="text" id="p1_name" value="">
+		<input type="number" id="p1_score" value=0>
+		<input type="number" id="p1_front" value=0 disabled>
+		<input type="number" id="p1_back" value=0 disabled>
+		<input type="number" id="p1_total" value=0 disabled><br>
+	
+		<input type="text" id="p2_name" value="">
+		<input type="number" id="p2_score" value=0>
+		<input type="number" id="p2_front" value=0 disabled>
+		<input type="number" id="p2_back" value=0 disabled>
+		<input type="number" id="p2_total" value=0 disabled><br>
+
+		<input type="text" id="p3_name" value="">
+		<input type="number" id="p3_score" value=0>
+		<input type="number" id="p3_front" value=0 disabled>
+		<input type="number" id="p3_back" value=0 disabled>
+		<input type="number" id="p3_total" value=0 disabled><br>
+
+		<input type="text" id="p4_name" value="">
+		<input type="number" id="p4_score" value=0>
+		<input type="number" id="p4_front" value=0 disabled>
+		<input type="number" id="p4_back" value=0 disabled>
+		<input type="number" id="p4_total" value=0 disabled><br>
+
+		<input type="Button" id="submit" value="Submit" onclick="updateDisplay()">
+		
+		</div>
+	  
+		</div>
+      </form>
+	<script src="golf_logic.js"></script>    
+	
+   </body>
+
+</html>
